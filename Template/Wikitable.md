@@ -14,7 +14,7 @@ generates an information table
 |}
 
 
-Creates this table:
+### Creates this table:
 
 ---------------------
 | Column1 | Column2 |

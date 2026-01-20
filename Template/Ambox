@@ -1,0 +1,49 @@
+<templatestyles src="Template:Mbox/style.css"/>
+{{{!}} style="{{{style|}}}" class="metadata plainlinks mbox ambox {{#switch:{{{type|}}}
+  | speedy     = ambox-speedy
+  | serious    = ambox-serious
+  | content    = ambox-content
+  | style      = ambox-style
+  | merge      = ambox-merge
+  | notice     = ambox-notice
+  | move       = ambox-move
+  | protection = ambox-protection
+  | neutrality = ambox-neutrality
+  | #default   = ambox-notice
+}}"
+{{!}}-
+{{#ifeq:{{{image}}}|none
+  | <!-- -->
+  | <nowiki/>
+{{!}} class="mbox-image" {{!}} {{#switch:{{{image|{{{type|}}}}}}
+    | speedy     = [[File:mbox-serious.svg|40px]]
+    | serious    = [[File:mbox-serious.svg|40px]]
+    | content    = [[File:mbox-content.svg|40px]]
+    | style      = [[File:mbox-style.svg|40px]]
+    | merge      = [[File:mbox-merge.svg|40px]]
+    | notice     = [[File:mbox-notice.svg|40px]]
+    | move       = [[File:mbox-move.svg|40px]]
+    | protection = [[File:mbox-protection.svg|40px]]
+    | neutrality = [[File:mbox-neutrality.svg|40px]]
+    | blank      = <!-- -->
+    | #default   = {{{image|[[File:mbox-notice.svg|40px]]}}}
+  }}
+}}
+{{!}} class="mbox-text" style="{{{textstyle|}}}" {{!}} {{{text}}}
+{{#if:{{{imageright|}}}| <nowiki/>
+{{!}} class="mbox-imageright" {{!}} {{#switch:{{{imageright|{{{type|}}}}}}
+    | speedy     = [[File:mbox-serious.svg|40px]]
+    | serious    = [[File:mbox-serious.svg|40px]]
+    | content    = [[File:mbox-content.svg|40px]]
+    | style      = [[File:mbox-style.svg|40px]]
+    | merge      = [[File:mbox-merge.svg|40px]]
+    | notice     = [[File:mbox-notice.svg|40px]]
+    | move       = [[File:mbox-move.svg|40px]]
+    | protection = [[File:mbox-protection.svg|40px]]
+    | neutrality = [[File:mbox-neutrality.svg|40px]]
+    | blank      = <!-- -->
+    | #default   = {{{imageright|}}}
+  }}
+}}
+{{!}}-
+{{!}}}

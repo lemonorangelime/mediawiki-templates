@@ -13,7 +13,7 @@ Generates a column flex-box
 <div>4</div>
 }}
 
-Creates this table:
+### Creates this table:
 
 ---------------------------------------------------------------------------
 |1                                  2                                     |
